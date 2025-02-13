@@ -1,6 +1,6 @@
 # **Documentação dos Casos de Teste da DHT**
 
-## **1️⃣ Teste: Inserção e Recuperação de um Aluno**
+## **Teste 1: Inserção e Recuperação de um Aluno**
 ### **Pré-condição**
 - A DHT contém pelo menos um nó ativo.
 - Nenhum aluno com o RA específico foi inserido antes.
@@ -20,7 +20,7 @@
 
 ---
 
-## **2️⃣ Teste: Remoção de um Aluno**
+## **Teste 2: Remoção de um Aluno**
 ### **Pré-condição**
 - Um aluno com RA **150** já foi inserido na DHT.
 
@@ -38,7 +38,7 @@
 
 ---
 
-## **3️⃣ Teste: Busca de um RA Inexistente**
+## **Teste 3: Busca de um RA Inexistente**
 ### **Pré-condição**
 - Nenhum aluno com RA **9999** foi inserido na DHT.
 
@@ -56,7 +56,7 @@
 
 ---
 
-## **4️⃣ Teste: Verificação do Nó Correto**
+## **Teste 4: Verificação do Nó Correto**
 ### **Pré-condição**
 - A DHT possui nós ativos e está configurada corretamente.
 
@@ -75,7 +75,7 @@
 
 ---
 
-## **5️⃣ Teste: Remoção de um Nó e Realocação de Alunos**
+## **Teste 5: Remoção de um Nó e Realocação de Alunos**
 ### **Pré-condição**
 - A DHT possui pelo menos dois nós.
 - O nó **6000** foi adicionado à rede.
